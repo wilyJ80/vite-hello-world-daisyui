@@ -2,9 +2,10 @@ import { defineConfig } from 'vite';
 import tailwindcss from 'tailwindcss';
 
 export default defineConfig({
-  css: {
+  /* css: {
     postcss: {
       plugins: [tailwindcss()]
     }
-  }
+  }, */
+  base: '/vite-hello-world-daisyui/',
 })
